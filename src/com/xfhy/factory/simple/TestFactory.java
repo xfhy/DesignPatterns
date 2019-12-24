@@ -1,4 +1,4 @@
-package com.xfhy.factory;
+package com.xfhy.factory.simple;
 
 /**
  * Created by xfhy on 2019/12/18 19:59
