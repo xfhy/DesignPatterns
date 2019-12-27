@@ -11,7 +11,8 @@ class ForenoonState extends State {
         if (work.hour < 12) {
             System.out.println("上午工作");
         } else  {
-
+            work.setState(new NoonState());
+            work.code();
         }
     }
 }

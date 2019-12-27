@@ -10,6 +10,10 @@ class Work {
     public boolean finish;
     private State mState;
 
+    public Work() {
+        mState = new ForenoonState();
+    }
+
     public void setState(State state) {
         mState = state;
     }
